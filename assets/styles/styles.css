@@ -54,7 +54,7 @@ header {
 
 .main-container-head {
   font-size: 30px;
-  text-align: center;
+  text-align: left;
   font-weight: 700;
 }
 
@@ -380,4 +380,112 @@ footer {
 img {
   justify-content: centera;
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  #nav-bar-icons {
+    display: none;
+  }
+
+  #nav-bar-social{
+    display: flex;
+    gap: 10px;
+  }
+
+  .button3 {
+    background-color: var(--secondary-background-color);
+    color: var(--primary-font-color);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    height: 3vh;
+    text-align: center;
+  }
+
+  .header-line {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  #nav-bar-menu {
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+
+  #log {
+    margin-top: 25px;
+  }
+
+  .header-11 {
+    display: flex;
+  }
+
+  .main-container-text {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .main-container {
+    width: 50%;
+  }
+
+  #main-container-button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #button1, #button2 {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .section2 {
+    margin: 50px;
+  }
+
+  #dis {
+    display: none;
+  }
+
+  .main-text {
+    margin-top: 0%;
+  }
+
+  .strategies1 {
+    display: flex;
+  }
+  
+  .box1 {
+    width: 25vw;
+    height: 7;
+  }
+
+  #box-button {
+    display: flex;
+    width: 32%;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .main-container-head h2 {
+    text-align: center;
+    width: 200%;
+  }
+
+  .main-container-texts {
+    text-align: center;
+    font-size: 14px;
+    width: 200%;
+  }
+
+  .miles-testimony {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 40px;
+  }
 }
