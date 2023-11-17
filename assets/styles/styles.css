@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap");
-* {
 
-  font-family: "Montserrat", sans-serif;
+* {
+  font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -215,7 +215,7 @@ section {
   height: hug (2, 374px);
   top: 30px;
   left: 42px;
-  padding: 45px, 0, 45px, 0;
+  padding: 45px, 0;
   gap: 100px;
 }
 
@@ -456,7 +456,8 @@ footer {
     gap: 20px;
   }
 
-  #button1,#button2 {
+  #button1,
+  #button2 {
     margin-left: 0%;
     margin-right: 0%;
   }
