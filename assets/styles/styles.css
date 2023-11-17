@@ -2,6 +2,7 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+
 :root {
   --primary-font-color: #ffff;
   --secondary-font-color: #181a1b;
@@ -197,6 +198,10 @@ body {
   margin-top: 25px;
 }
 
+#desktop {
+  display: none;
+}
+
 #fox {
   text-align: left;
 }
@@ -360,6 +365,10 @@ h6 {
   margin-bottom: 100px;
 }
 
+.help {
+  display: none;
+}
+
 .social {
   font-size: 14px;
   gap: 40px;
@@ -408,6 +417,11 @@ img {
     justify-content: space-around;
   }
 
+  #main-container-image img {
+    width: 40vw;
+    height: 70vh;
+  }
+
   #nav-bar-menu {
     margin: auto;
     display: flex;
@@ -439,6 +453,11 @@ img {
     gap: 10px;
   }
 
+#desktop {
+  display: flex;
+  gap: 20px;
+}
+
   #button1, #button2 {
     margin-left: 0%;
     margin-right: 0%;
@@ -458,11 +477,11 @@ img {
 
   .strategies1 {
     display: flex;
+    gap: 20px;
   }
   
   .box1 {
     width: 25vw;
-    height: 7;
   }
 
   #box-button {
@@ -486,6 +505,95 @@ img {
   .miles-testimony {
     margin-left: 20vw;
     margin-right: 20vw;
+    margin-top: 40px;
+  }
+
+  .container-head h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .main-container-text p {
+    text-align: center;
+  }
+
+  .all-box2 {
+    padding: 30px;
+    margin-left: 60px;
+  }
+
+  .price-divs {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    gap: 2px;
+    padding: 30px;
+    height: 95vh;
+  }
+
+  .pricing {
+    width: 20vw;
+    height: fit-content;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .pricing-mid {
+    width: 20vw;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    height: fit-content;
+  }
+
+  .checked {
+    font-size: 10px;
+  }
+
+  .pricing-last {
+    width: 20vw;
+    height: fit-content;
+    margin-top: 70px;
+    border-radius: 5px;
+  }
+
+  .wider-icon {
+    margin-left: 37%;
+    margin-right: 25%;
+  }
+
+  .help {
+    display: flex;
+    gap: 100px;
+  }
+
+  #contact-us {
+    width: 55%;
+  }
+
+  #sign-up {
+    display: flex;
+    width: 45%;
+
+    align-items: center;
+  }
+
+  #sign-up .button2 {
+    width: 20vw;
+    height: 3vh;
+  }
+
+  #sign-up .button {
+    width: 10vw;
+    height: 3vh;
+  }
+
+  #footer-text {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social {
     margin-top: 40px;
   }
 }
