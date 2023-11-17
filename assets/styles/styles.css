@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap");
 * {
-  font-family: 'Montserrat', sans-serif;
+
+  font-family: "Montserrat", sans-serif;
 }
 
 :root {
   --primary-font-color: #ffff;
   --secondary-font-color: #181a1b;
-  --primary-background-color: #252B42;
-  --secondary-background-color: rgb(36, 165, 240);
+  --primary-background-color: #252b42;
+  --secondary-background-color: #24a5f0;
 }
 
 header {
@@ -83,10 +84,7 @@ header {
   padding: 20px;
   border-radius: 30px;
   border: 1px solid white;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 60px 30px;
 }
 
 body {
@@ -115,7 +113,7 @@ body {
   margin: 10px;
   gap: 20px;
   background-color: var(--primary-font-color);
-  color: rgba(115, 115, 115, 1);
+  color: var(--secondary-background-color);
   font-size: 14px;
   width: 90%;
   align-items: center;
@@ -130,7 +128,7 @@ body {
   border-radius: 50px;
 }
 
-.Strategy1 {
+.strategy1 {
   font-size: 14px;
   width: 50vw;
   text-align: left;
@@ -213,12 +211,17 @@ body {
 }
 
 section {
-  width: Fixed (330px);
-  height: Hug (2,374px);
+  width: fixed (330px);
+  height: hug (2, 374px);
   top: 30px;
   left: 42px;
-  padding: 45px, 0px, 45px, 0px;
+  padding: 45px, 0, 45px, 0;
   gap: 100px;
+}
+
+img {
+  justify-content: centera;
+  align-items: center;
 }
 
 #pic img {
@@ -386,17 +389,12 @@ footer {
   margin-top: 40px;
 }
 
-img {
-  justify-content: centera;
-  align-items: center;
-}
-
 @media (min-width: 768px) {
   #nav-bar-icons {
     display: none;
   }
 
-  #nav-bar-social{
+  #nav-bar-social {
     display: flex;
     gap: 10px;
   }
@@ -453,12 +451,12 @@ img {
     gap: 10px;
   }
 
-#desktop {
-  display: flex;
-  gap: 20px;
-}
+  #desktop {
+    display: flex;
+    gap: 20px;
+  }
 
-  #button1, #button2 {
+  #button1,#button2 {
     margin-left: 0%;
     margin-right: 0%;
   }
@@ -479,7 +477,7 @@ img {
     display: flex;
     gap: 20px;
   }
-  
+
   .box1 {
     width: 25vw;
   }
@@ -490,7 +488,7 @@ img {
     align-items: center;
     gap: 10px;
   }
-  
+
   .main-container-head h2 {
     text-align: center;
     width: 200%;
@@ -574,7 +572,6 @@ img {
   #sign-up {
     display: flex;
     width: 45%;
-
     align-items: center;
   }
 
